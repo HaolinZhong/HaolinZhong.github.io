@@ -1,0 +1,10 @@
+---
+title: "Curriculum Vitae"
+output: 
+  html_document:
+    theme: darkly
+      
+---
+
+
+<span style="font-family:Lato; font-size:2em;">EDUCATION</span>

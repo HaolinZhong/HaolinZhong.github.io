@@ -1,12 +1,32 @@
 ---
-title: "My awesome website"
+title: ""
 output: 
   html_document:
-    toc: true
-    toc_float: true
-    theme: cerulean
+    theme: darkly
+    highlight: tango
+    md_extensions: -autolink_bare_uris+hard_line_breaks
 ---
 
-# Home
+<span style="font-family:Lato; font-size:3em;">Hello, I'm Haolin Zhong.</span>  
+
+&nbsp;
+
+<img src="pics/head.jpg" style="width:25%">
+
+&nbsp;
+
+# about me
+
+- I'm a Biostatistics master student at Mailman School of Public Health, Columbia University. 
+- I earned my bachelor degree in Biotechnology from Nankai University in China. 
+- I have been working in wet labs, dry labs, and a tech company, and finally decided to pursue a career in data science. 
+- Now, I'm particularly interested in machine learning algorithms and big data technologys, including Hadoop, Spark, Hive...
+- See [my curriculum vitae](resume.html) for details.   
+  
+&nbsp;
+
+# dashboard example
+
+- [Here](dashboard.html) is an example dashboard built as a homework for my Data Science course.
 
 
