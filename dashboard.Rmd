@@ -5,10 +5,7 @@ output:
     orientation: rows
     source_code: embed
     theme:
-      version: 5
-      bg: "#101010"
-      fg: "white" 
-      primary: "white"
+      version: 4
       navbar-bg: "steelblue"
       base_font: Lato
       heading_font:

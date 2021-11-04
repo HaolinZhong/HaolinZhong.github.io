@@ -1,9 +1,6 @@
 ---
 title: "Curriculum Vitae"
-output: 
-  html_document:
-    theme: darkly
-      
+output: html_document
 ---
 
 
