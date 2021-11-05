@@ -1,6 +1,8 @@
 ---
-title: "Haolin Zhong"
-output: html_document
+title: "Hello, I'm Haolin Zhong"
+output: 
+  html_document:
+    theme: default
 ---
 
 <span style="font-family:Lato; font-size:3em;">Hello, I'm Haolin Zhong.</span>  

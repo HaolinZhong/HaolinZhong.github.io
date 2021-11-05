@@ -1,4 +1,4 @@
-name: "Haolin Zhong"
+name: "Hello, I'm Haolin Zhong"
 output_dir: "."
 navbar:
   title: "Home"
@@ -15,4 +15,4 @@ navbar:
       href: https://www.linkedin.com/in/haolin-zhong-266307203/
 output:
   html_document:
-    theme: Darkly
+    theme: default
