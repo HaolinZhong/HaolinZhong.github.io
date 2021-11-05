@@ -15,4 +15,4 @@ navbar:
       href: https://www.linkedin.com/in/haolin-zhong-266307203/
 output:
   html_document:
-    theme: Cerulean
+    theme: darkly
