@@ -4,6 +4,11 @@ output:
   flexdashboard::flex_dashboard:
     orientation: rows
     source_code: embed
+    theme:
+      version: 4
+      navbar-bg: "steelblue"
+      base_font: 
+        google: Lato
 ---
 
 ```{r setup, include=FALSE}

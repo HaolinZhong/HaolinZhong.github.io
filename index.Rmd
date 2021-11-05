@@ -1,20 +1,42 @@
 ---
-title: "Hello, I'm Haolin Zhong"
+title: " "
 output: html_document
 ---
+
+<span style="font-family:Lato; font-size:3em;">Hello, I'm Haolin Zhong.</span>
+
+&nbsp;
+
+<img src="pics/head.jpg" style="width:25%">
+
+&nbsp;
+
 
 # about me
 
 - I'm a Biostatistics master student at Mailman School of Public Health, Columbia University. 
-- I earned my bachelor degree in Biotechnology from Nankai University in China. 
-- I have been working in wet labs, dry labs, and a tech company, and finally decided to pursue a career in data science. 
-- Now, I'm particularly interested in machine learning algorithms and big data technologys, including Hadoop, Spark, Hive...
-- See [my curriculum vitae](resume.html) for details.   
-  
 
+- I earned my bachelor degree in Biotechnology from Nankai University in China. 
+
+- I have been working in wet labs, dry labs, and a tech company, and finally decided to pursue a career in data science. 
+
+- Now, I'm particularly interested in machine learning algorithms and big data technologies, including Hadoop, Spark, Hive...
+
+- See [my curriculum vitae](resume.html) for details.   
+
+&nbsp;  
 
 # dashboard example
 
-- [Here](dashboard.html) is an example dashboard built as a homework for my Data Science course.
+- [Here](dashboard.html) is an example dashboard built as a homework for my Data Science course. The dashboard was built based
+on the data collected by climatic stations in NYC in 2009, and attempted to visualize the daily precipitation and snowfall, and
+investigated the association among melting snow amount, daily maximum temperature and snow depth. 
 
+&nbsp;
+
+# favorite quotes
+
+- The 21st century is the century of Life Sciences, but **never earn your bachelor degree from the Department of Biology**. $\quad\quad\quad\quad$ (Professor Ouyang, Qi from Peking University)
+
+- Do not go gentle into that good night. Rage, rage against the dying of the light. $\quad\quad\quad\quad$ (Dylan Thomas)
 

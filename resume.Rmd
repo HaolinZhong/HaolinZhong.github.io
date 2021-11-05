@@ -1,7 +1,74 @@
 ---
-title: "Curriculum Vitae"
-output: html_document
+title: "Haolin Zhong"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
+&nbsp;
 
-<span style="font-family:Lato; font-size:2em;">EDUCATION</span>
+## <span style="font-family:Lato; font-size:1em;">EDUCATION</span>
+
+- Master of Science in Biostatistics, Columbia University, 2021 - 2023 (expected)
+
+- Bachelor of Science in Biological Techonology, Nankai University, 2015 - 2019
+
+- _Currently considering getting another master in Computer Science..._
+
+&nbsp;
+
+## <span style="font-family:Lato; font-size:1em;">SKILLS</span>
+
+- _**Programming Languages**_: Java, R, Python, SQL, currently learning scala...
+
+- _**Technologies / Frameworks**_: git, tidyverse, plotly, sklearn, keras, MySQL, Hadoop, Spark, Hive, AWS
+
+- _**Statistics**_: descriptive statistics, parametric / non-parametric hypothesis test, ANOVA, common distributions, experiment design
+
+- _**Machine learning models**_: linear regression, decision tree, logistic regression, random forest, SVM, KNN, K-means, hierarchical clustering, PCA, neural network
+
+- _**Related courses**_: Calculus, Probability, Biostatistics Methods, Data Science
+
+&nbsp;
+
+## <span style="font-family:Lato; font-size:1em;">EXPERIENCE</span>
+
+- _Data Enginneer Intern_ at yz-intelligence, Changsha, Hunan, China
+
+  -	Created ETL jobs using SQL, Python and Shell scripts to pull data from various sources (text files, SQL server) 
+  
+  -	Designed and built dimensional models in multiple layers of the data warehouse on Hive for dashboard development, and reduced dashboard response time by 30% through data model and queries optimization
+  
+  -	Implemented data pipelines through Zookeeper to automate daily extraction, transformation and transfer of data
+
+&nbsp;
+
+- _Research Assistant_ at National Center for Protein Science, Beijing, China
+
+  -	Participated in the design, implementation, writing process of two published papers
+  
+  -	Built automated ETL pipeline and integrated over 40 GB protein annotations data from various sources through API, web scraping
+  
+  -	Performed data mining, statistical analysis, and data visualization and discovered novel sequence and evolutional characteristics of unstructured proteins
+
+&nbsp;
+
+## <span style="font-family:Lato; font-size:1em;">PROJECTS</span>
+
+- AWS data warehouse
+
+  -	Built data warehouse on AWS EMR (distributed cluster), EC2 (log server) and RDS (data mart)
+  
+  -	Designed ODS, DWD, DWS, ADS layers and constructed more than 60 tables in Hive
+  
+  -	Developed interactive dashboards using Superset to visualize key metrics
+
+&nbsp;
+
+## <span style="font-family:Lato; font-size:1em;">PUBLICATIONS</span>
+
+-	Wang, H., **Zhong, H.**, Gao, C., Zang, J., & Yang, D. (2021). The Distinct Properties of the Consecutive Disordered Regions Inside or Outside Protein Domains and Their Functional Significance. International Journal of Molecular Sciences, 22(19), 10677.
+
+-	Gao, C., Ma, C., Wang, H., **Zhong, H.**, Zang, J., Zhong, R., ... & Yang, D. (2021). Intrinsic disorder in protein domains contributes to both organism complexity and clade-specific functions. Scientific reports, 11(1), 1-18.
+

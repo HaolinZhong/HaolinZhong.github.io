@@ -11,7 +11,7 @@
 
 
 
-<title>Curriculum Vitae</title>
+<title>Haolin Zhong</title>
 
 <script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -220,6 +223,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -227,6 +293,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -279,15 +355,77 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Curriculum Vitae</h1>
+<h1 class="title toc-ignore">Haolin Zhong</h1>
 
 </div>
 
 
-<p><span style="font-family:Lato; font-size:2em;">EDUCATION</span></p>
+<p> </p>
+<div id="education" class="section level2">
+<h2><span style="font-family:Lato; font-size:1em;">EDUCATION</span></h2>
+<ul>
+<li><p>Master of Science in Biostatistics, Columbia University, 2021 - 2023 (expected)</p></li>
+<li><p>Bachelor of Science in Biological Techonology, Nankai University, 2015 - 2019</p></li>
+<li><p><em>Currently considering getting another master in Computer Science…</em></p></li>
+</ul>
+<p> </p>
+</div>
+<div id="skills" class="section level2">
+<h2><span style="font-family:Lato; font-size:1em;">SKILLS</span></h2>
+<ul>
+<li><p><em><strong>Programming Languages</strong></em>: Java, R, Python, SQL, currently learning scala…</p></li>
+<li><p><em><strong>Technologies / Frameworks</strong></em>: git, tidyverse, plotly, sklearn, keras, MySQL, Hadoop, Spark, Hive, AWS</p></li>
+<li><p><em><strong>Statistics</strong></em>: descriptive statistics, parametric / non-parametric hypothesis test, ANOVA, common distributions, experiment design</p></li>
+<li><p><em><strong>Machine learning models</strong></em>: linear regression, decision tree, logistic regression, random forest, SVM, KNN, K-means, hierarchical clustering, PCA, neural network</p></li>
+<li><p><em><strong>Related courses</strong></em>: Calculus, Probability, Biostatistics Methods, Data Science</p></li>
+</ul>
+<p> </p>
+</div>
+<div id="experience" class="section level2">
+<h2><span style="font-family:Lato; font-size:1em;">EXPERIENCE</span></h2>
+<ul>
+<li><p><em>Data Enginneer Intern</em> at yz-intelligence, Changsha, Hunan, China</p>
+<ul>
+<li><p>Created ETL jobs using SQL, Python and Shell scripts to pull data from various sources (text files, SQL server)</p></li>
+<li><p>Designed and built dimensional models in multiple layers of the data warehouse on Hive for dashboard development, and reduced dashboard response time by 30% through data model and queries optimization</p></li>
+<li><p>Implemented data pipelines through Zookeeper to automate daily extraction, transformation and transfer of data</p></li>
+</ul></li>
+</ul>
+<p> </p>
+<ul>
+<li><p><em>Research Assistant</em> at National Center for Protein Science, Beijing, China</p>
+<ul>
+<li><p>Participated in the design, implementation, writing process of two published papers</p></li>
+<li><p>Built automated ETL pipeline and integrated over 40 GB protein annotations data from various sources through API, web scraping</p></li>
+<li><p>Performed data mining, statistical analysis, and data visualization and discovered novel sequence and evolutional characteristics of unstructured proteins</p></li>
+</ul></li>
+</ul>
+<p> </p>
+</div>
+<div id="projects" class="section level2">
+<h2><span style="font-family:Lato; font-size:1em;">PROJECTS</span></h2>
+<ul>
+<li><p>AWS data warehouse</p>
+<ul>
+<li><p>Built data warehouse on AWS EMR (distributed cluster), EC2 (log server) and RDS (data mart)</p></li>
+<li><p>Designed ODS, DWD, DWS, ADS layers and constructed more than 60 tables in Hive</p></li>
+<li><p>Developed interactive dashboards using Superset to visualize key metrics</p></li>
+</ul></li>
+</ul>
+<p> </p>
+</div>
+<div id="publications" class="section level2">
+<h2><span style="font-family:Lato; font-size:1em;">PUBLICATIONS</span></h2>
+<ul>
+<li><p>Wang, H., <strong>Zhong, H.</strong>, Gao, C., Zang, J., &amp; Yang, D. (2021). The Distinct Properties of the Consecutive Disordered Regions Inside or Outside Protein Domains and Their Functional Significance. International Journal of Molecular Sciences, 22(19), 10677.</p></li>
+<li><p>Gao, C., Ma, C., Wang, H., <strong>Zhong, H.</strong>, Zang, J., Zhong, R., … &amp; Yang, D. (2021). Intrinsic disorder in protein domains contributes to both organism complexity and clade-specific functions. Scientific reports, 11(1), 1-18.</p></li>
+</ul>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -320,6 +458,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
