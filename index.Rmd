@@ -3,14 +3,6 @@ title: "Hello, I'm Haolin Zhong"
 output: html_document
 ---
 
-<span style="font-family:Lato; font-size:3em;">Hello, I'm Haolin Zhong.</span>  
-
-&nbsp;
-
-<img src="pics/head.jpg" style="width:25%">
-
-&nbsp;
-
 # about me
 
 - I'm a Biostatistics master student at Mailman School of Public Health, Columbia University. 
@@ -19,7 +11,7 @@ output: html_document
 - Now, I'm particularly interested in machine learning algorithms and big data technologys, including Hadoop, Spark, Hive...
 - See [my curriculum vitae](resume.html) for details.   
   
-&nbsp;
+
 
 # dashboard example
 
